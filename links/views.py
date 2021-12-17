@@ -25,7 +25,7 @@ def home_view(request):
         try:
             if form.is_valid():
                 form.save()
-                return HttpResponseRedirect(reverse("links.views.home_view"))
+                return redirect(request.path)
         except AttributeError:
             error = "Opps.. coudn't get the name or the price!!"
         except:
