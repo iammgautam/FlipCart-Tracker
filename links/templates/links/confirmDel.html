@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method='POST' action="">
+    {% csrf_token %}
+    <p> Are You sure you want to Delete the Link:"{{object.name}}?"</p>
+    <button class="btn btn-primary">Yes</button>
+</form>
+{% endblock content %}
