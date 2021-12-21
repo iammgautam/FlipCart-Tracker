@@ -7,7 +7,7 @@ from django.views.generic import DeleteView
 
 # Create your views here.
 '''
-For our home view e need to pass to the template:
+For our home view we need to pass to the template:
 - qs
 - number of items
 - number of items discounted
@@ -21,6 +21,7 @@ def home_view(request):
 
     form = AddLinkForm(request.POST or None)
 
+    #get the valid url from the user
     if request.method == 'POST':
         try:
             if form.is_valid():
@@ -33,9 +34,11 @@ def home_view(request):
 
     form = AddLinkForm()
 
+    #prints the no. of items added.
     qs = Link.objects.all()
     items_no = qs.count()
 
+    #prints the no. of discounted price
     if items_no > 0:
         discount_list = []
         for item in qs:

@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import lxml
 
+#function returns the title and price from the given url's .html file.
 def get_link_data(url):
 
     headers = {

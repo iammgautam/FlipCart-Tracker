@@ -1,3 +1,6 @@
+#this file is fro those who wants to practise BS4 different methods() how they are implemented and what output it gives. index.html file is used as a scrapper to practise on.
+#Have Fun !!
+
 from bs4 import BeautifulSoup
 import lxml
 import os

@@ -1,3 +1,4 @@
 .env
 ./main.py
 db.sqlite3
+links/__pycache__/__init__.cpython-38.pyc links/__pycache__/admin.cpython-38.pyc links/__pycache__/apps.cpython-38.pyc links/__pycache__/forms.cpython-38.pyc links/__pycache__/models.cpython-38.pyc links/__pycache__/urls.cpython-38.pyc links/__pycache__/utils.cpython-38.pyc links/__pycache__/views.cpython-38.pyc
