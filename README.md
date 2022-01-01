@@ -7,7 +7,7 @@
 
 It is a Web Scrapping application that takes in user preferred product from Flipkart to track it's price. This application is build on top of Django.
 
-![Screenshot](https://github.com/zengboi/To-Do-List/blob/main/preview/task-list.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/zengboi/FlipCart-Tracker/main/image.png)
 
 ## Problems it is going to Solve.
 - It will keep us updated with change in price in Flipkart Products.
@@ -67,7 +67,7 @@ What did you learn while building this project?
 - Web Scrapping using BeautifulSoup4
 - Use of Class-Based DeleteView.
 - POST-REDIRECT-GET Pattern.
-    
+
 ## LICENSE
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/zengboi/CLI-Login-System/blob/main/LICENSE)
